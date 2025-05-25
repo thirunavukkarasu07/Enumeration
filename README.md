@@ -33,19 +33,53 @@ Google hacking, also known as Google dorking, is a technique that involves using
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
 
+
+![Alt text](img22/site.png)
+
+
+
+
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+
+
+
+![Alt text](img22/filetype.png)
+
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
 
 
+
+![Alt text](img22/intext.png)
+
+
+
+
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+
+
+![Alt text](img22/inurl.png)
+
+
+
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
 
+
+![Alt text](img22/inurlindexof.png)
+
+
+
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+
+
+
+![Alt text](img22/link.png)
+
+
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
 
@@ -62,7 +96,7 @@ Top level domain expansion
 ## OUTPUT:
 
 
-
+![Alt text](img22/1.png)
 
 
 
@@ -97,8 +131,27 @@ telnet <host address> 25 to connect
 and issue appropriate commands
   
  ##Output
+
+
+ ![Alt text](img22/2.png)
+
+
   
-  
+  ![Alt text](img22/3.png)
+
+
+
+![Alt text](img22/4.png)
+
+
+![Alt text](img22/5.png)
+
+
+![Alt text](img22/6.png)
+
+
+![Alt text](img22/7.png)
+
 
 ## nmap –script smtp-enum-users.nse <hostname>
 
@@ -106,6 +159,9 @@ The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server 
 
 
 ## OUTPUT:
+
+
+![Alt text](img22/9.png)
 
 
 ## RESULT:
